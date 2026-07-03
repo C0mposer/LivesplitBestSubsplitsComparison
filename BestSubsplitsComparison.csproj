@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>LiveSplit</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+    <TargetFramework>net481</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <LangVersion>latest</LangVersion>
+    <LsSrcPath Condition="'$(LsSrcPath)' == ''">$(MSBuildThisFileDirectory)..\LiveSplit\src</LsSrcPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="$(LsSrcPath)\LiveSplit.Core\LiveSplit.Core.csproj" Private="false" ExcludeAssets="runtime" />
+    <ProjectReference Include="$(LsSrcPath)\UpdateManager\UpdateManager.csproj" Private="false" ExcludeAssets="runtime" />
+  </ItemGroup>
+
+</Project>
