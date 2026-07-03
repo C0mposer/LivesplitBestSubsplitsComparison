@@ -9,3 +9,5 @@ Right click Livesplit, click "Edit Layout", click "+", then click "Other -> Best
 You can tweak a few settings under Layout settings:
 - You can rename the comparison. The default is "Best Subsplits"
 - If **Ignore comparisons with skipped splits** is checked, segments are rejected for a section unless every split in that section has a segment time.  
+  
+Once installed, you will have a new comparison named "Best Subsplits" by default. (Name will be different if customized)
