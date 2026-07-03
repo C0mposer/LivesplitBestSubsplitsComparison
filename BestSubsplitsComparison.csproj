@@ -4,6 +4,7 @@
     <RootNamespace>LiveSplit</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
     <TargetFramework>net481</TargetFramework>
+    <AssemblyName>LiveSplit.BestSubsplitsComparison</AssemblyName>
     <EnableDynamicLoading>true</EnableDynamicLoading>
     <LangVersion>latest</LangVersion>
     <LsSrcPath Condition="'$(LsSrcPath)' == ''">$(MSBuildThisFileDirectory)..\LiveSplit\src</LsSrcPath>
